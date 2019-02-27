@@ -23,25 +23,51 @@ img {
     width:100%;
 }
 
-.home{
-    width:18%;
+#home{
+    background-color: #fffcbf;
+    transition: background-color 2s;
 }
 
-.product{
-    width:18%;
+#home:hover{
+    background-color: #ff6868;
 }
 
-.my-account{
-    width:18%;
+#products{
+    background-color: #fffcbf;
+    transition: background-color 2s;
 }
 
-.contact{
-    width:18%;
+#products:hover{
+    background-color: #ff6868;
 }
 
-.cart{
-    width:28%;
+#my-account{
+    background-color: #fffcbf;
+    transition: background-color 2s;
 }
+
+#my-account:hover{
+    background-color: #ff6868;
+}
+
+#contact{
+    background-color: #fffcbf;
+    transition: background-color 2s;
+}
+
+#contact:hover{
+    background-color: #ff6868;
+}
+
+#cart{
+    background-color: #fffcbf;
+    transition: background-color 2s;
+}
+
+#cart:hover{
+    background-color: #ff6868;
+}
+
 /* body */
 #site-body{
     background-color: #f7f294;
