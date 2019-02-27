@@ -13,9 +13,10 @@
     height: 100px;
     padding: 0;
 }
-img {
-    max-width: 100%;
-    max-height: 100%
+
+.contain{
+    width:100%;
+    height: auto;
 }
 
 #nav{
@@ -69,10 +70,29 @@ img {
 }
 
 /* body */
+
 #site-body{
     background-color: #f7f294;
-    width: 100%;
-    height : 350px;
+    height : auto;
+    padding: 0;
+}
+
+
+.contain-van{
+    width:100%;
+    max-width:600px;
+    max-height: 400px;
+    height: auto;
+}
+
+
+#search-box{
+    padding: 5%;
+    height:200px;
+}
+#categories-box{
+    padding:5%;
+    height:200px;
 }
 /* footer */
 #site-footer{
