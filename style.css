@@ -98,10 +98,10 @@ body{
 
 @media only screen and (max-width: 768px){
 body{
-    height: 100%;
+    height: auto;
     }
 }
-
+/* shop body section */
 #site-body{
     background-color: #f7f294;
     height : 64vh;
@@ -110,10 +110,42 @@ body{
 }
 
 #shop-body{
+    height : auto;
     padding: 2%;
     margin: 0;
 }
 
+#preview-window{
+    height: 100%;
+    border: 1px;
+    border-style: solid;
+    padding:-1px;
+}
+
+@media only screen and (max-width: 768px){
+    #preview-window{
+        height:80%;
+        border: 1px;
+        border-style: solid;
+        padding:-1px;
+    }
+}
+
+#social-media{
+    height: 100%;
+    border: 1px;
+    border-style: solid;
+    padding:-1px;
+}
+
+@media only screen and (max-width: 768px){
+    #social-media{
+        height:20%;
+        border: 1px;
+        border-style: solid;
+        padding:-1px;
+    }
+}
 
 .contain-van{
     width:100%;
@@ -122,16 +154,27 @@ body{
     height: auto;
 }
 
+/* search & categories section */
+#categories {
+    height: 25vh;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 #search-box{
     padding:0;
-    height: 32vh;
+    height: 25vh;
 }
 
 #categories-box{
     padding:0;
-    height:32vh;
+    height:25vh;
 }
+
+
+
 /* footer */
 #site-footer{
     background-color: #fffcbf;
