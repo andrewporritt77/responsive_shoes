@@ -3,27 +3,46 @@
 /* general */
 
 /* head */
+header{
+    margin: 0;
+    padding: 0;
+}
+
 #site-head{
     background-color: #fffcbf;
     height: 18vh;
     width : 100%;
-
+    padding:0;
+    margin:0;
+}
+@media only screen and (max-width: 768px){
+    #site-head{
+        height:36vh;
+    }
 }
 
 #logo{
-    height: 100%;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#nav{
+    height: auto;
+    width: auto;
+    margin: 0;
     padding: 0;
 }
 
 .contain{
-    width:100%;
+    max-width:100%;
     height: auto;
+    padding: 0;
+    margin: 0;
 }
 
-#nav{
-    height: 100%;
-    width:100%;
-}
+/* nav hover animations */
 
 #home{
     background-color: #fffcbf;
@@ -73,6 +92,14 @@
 /* body */
 body{
     height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px){
+body{
+    height: 100%;
+    }
 }
 
 #site-body{
@@ -91,11 +118,12 @@ body{
 
 
 #search-box{
-    padding: 5%;
+    padding:0;
     height: 32vh;
 }
+
 #categories-box{
-    padding:5%;
+    padding:0;
     height:32vh;
 }
 /* footer */
@@ -103,4 +131,6 @@ body{
     background-color: #fffcbf;
     width: 100%;
     height: 18vh;
+    margin:0;
+    padding:0;
 }
