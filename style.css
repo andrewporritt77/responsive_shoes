@@ -5,12 +5,13 @@
 /* head */
 #site-head{
     background-color: #fffcbf;
+    height: 18vh;
     width : 100%;
 
 }
 
 #logo{
-    height: 100px;
+    height: 100%;
     padding: 0;
 }
 
@@ -20,7 +21,7 @@
 }
 
 #nav{
-    height: 100px;
+    height: 100%;
     width:100%;
 }
 
@@ -70,10 +71,13 @@
 }
 
 /* body */
+body{
+    height: 100vh;
+}
 
 #site-body{
     background-color: #f7f294;
-    height : auto;
+    height : 64vh;
     padding: 0;
 }
 
@@ -88,15 +92,15 @@
 
 #search-box{
     padding: 5%;
-    height:200px;
+    height: 32vh;
 }
 #categories-box{
     padding:5%;
-    height:200px;
+    height:32vh;
 }
 /* footer */
 #site-footer{
     background-color: #fffcbf;
     width: 100%;
-    height: 100px;
+    height: 18vh;
 }
