@@ -1,11 +1,34 @@
 /* fonts */
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 /* general */
-
+* {
+    box-sizing: border-box;
+}
 /* head */
 header{
     margin: 0;
     padding: 0;
+}
+
+#golden-shoes-text{
+    font-family: 'Playfair Display', serif;
+    font-size:3vw;
+    text-align: center;
+    vertical-align: middle;
+    padding-top:2%;
+    margin:0;
+}
+
+@media only screen and (max-width: 768px){
+    #golden-shoes-text{
+        font-family: 'Playfair Display', serif;
+        font-size:8vw;
+        text-align: center;
+        vertical-align: middle;
+        padding-top:5px;
+        margin:0;
+    }
 }
 
 #site-head{
@@ -45,6 +68,8 @@ header{
 /* nav hover animations */
 
 #home{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:10pt;
     background-color: #fffcbf;
     transition: background-color 2s;
 }
@@ -54,6 +79,8 @@ header{
 }
 
 #products{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:10pt;
     background-color: #fffcbf;
     transition: background-color 2s;
 }
@@ -63,6 +90,8 @@ header{
 }
 
 #my-account{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:10pt;
     background-color: #fffcbf;
     transition: background-color 2s;
 }
@@ -72,6 +101,8 @@ header{
 }
 
 #contact{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:10pt;
     background-color: #fffcbf;
     transition: background-color 2s;
 }
@@ -81,7 +112,9 @@ header{
 }
 
 #cart{
-    background-color: #fffcbf;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:10pt;
+    background-color: #db9d9d;
     transition: background-color 2s;
 }
 
@@ -98,7 +131,7 @@ body{
 
 @media only screen and (max-width: 768px){
 body{
-    height: auto;
+    height: 200vh;
     }
 }
 /* shop body section */
@@ -109,42 +142,77 @@ body{
     margin: 0;
 }
 
+@media only screen and (max-width: 768px){
+#site-body{
+    height: 120vh;
+    }
+}
+
 #shop-body{
-    height : auto;
-    padding: 2%;
+    height : 100%;
     margin: 0;
+    padding:0;
+    background-color:#f9f9f2;
+}
+
+@media only screen and (max-width: 768px){
+#shop-body{
+    height: 70%;
+    }
 }
 
 #preview-window{
     height: 100%;
-    border: 1px;
-    border-style: solid;
-    padding:-1px;
+}
+/* preview gallery */
+#preview-window{
+    padding: 0;
+    margin:0;
 }
 
+.main-product{
+    max-height: 90%;
+    padding:10px;
+    width: auto;
+    display: block
+}
+.thumb {
+    padding-right: 10px;
+    padding-top: 10px;
+    opacity: 0.6;
+}
+
+.thumb:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 460px){
+    .thumb {
+        display: none;
+    }
+}
 @media only screen and (max-width: 768px){
     #preview-window{
         height:80%;
-        border: 1px;
-        border-style: solid;
-        padding:-1px;
     }
 }
 
 #social-media{
     height: 100%;
-    border: 1px;
-    border-style: solid;
-    padding:-1px;
+
+    font-size:20pt;
 }
 
 @media only screen and (max-width: 768px){
     #social-media{
         height:20%;
-        border: 1px;
-        border-style: solid;
-        padding:-1px;
+
     }
+}
+
+.soc-icon{
+    margin-right: 18px;
+    margin-bottom: 18px;
 }
 
 .contain-van{
@@ -161,11 +229,23 @@ body{
     margin: 0;
 }
 
-
+.search-title{
+    font-family: 'Playfair Display', serif;
+    font-size:16pt;
+    margin:0;
+    padding-left: 15px;
+}
 
 #search-box{
     padding:0;
     height: 25vh;
+}
+
+.categories-title{
+    font-family: 'Playfair Display', serif;
+    font-size:16pt;
+    margin:0;
+    padding-left: 15px;
 }
 
 #categories-box{
@@ -173,6 +253,10 @@ body{
     height:25vh;
 }
 
+.container{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:10pt;
+}
 
 
 /* footer */
