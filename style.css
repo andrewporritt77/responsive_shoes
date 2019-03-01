@@ -166,14 +166,14 @@ body{
 }
 /* preview gallery */
 #preview-window{
-    padding: 0;
+    padding: 5%;
     margin:0;
 }
 
 .main-product{
     max-height: 90%;
     padding:10px;
-    width: auto;
+    max-width: 100%;
     display: block
 }
 .thumb {
