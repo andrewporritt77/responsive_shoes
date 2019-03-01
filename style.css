@@ -248,14 +248,14 @@ body{
     margin: 0;
 }
 
-.search-title{
+.title{
     font-family: 'Playfair Display', serif;
     font-size:24pt;
     margin:0;
     padding-left: 15px;
 }
 @media only screen and (max-width: 768px){
-    .search-title{
+    .title{
         font-size:16pt;
     }
 }
@@ -285,7 +285,7 @@ body{
 
 .container{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:16pt;
+    font-size:12pt;
 }
 
 @media only screen and (max-width: 768px){
