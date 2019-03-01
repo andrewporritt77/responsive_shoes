@@ -18,19 +18,19 @@
                 <img src="media/gs.jpg" alt="Golden Shoes Logo" class="col-4" style="height: 100%; width: 100%; object-fit: contain">
             </div>
             <div class="col-12 col-md-8 row" id="nav">
-                <div class="col-3 col-md-2" id="home">Home
+                <div class="col-3 col-md-2 nav-font" id="home">Home
                     <i class="fas fa-home"></i>
                 </div>
-                <div class="col-3 col-md-2" id="products">Products
+                <div class="col-3 col-md-2 nav-font" id="products">Products
                     <i class="fas fa-shoe-prints"></i>
                 </div>
-                <div class="col-3 col-md-2" id="my-account">Account
+                <div class="col-3 col-md-2 nav-font" id="my-account">Account
                     <i class="fas fa-user-alt"></i>
                 </div>
-                <div class="col-3 col-md-2" id="contact">Contact
+                <div class="col-3 col-md-2 nav-font" id="contact">Contact
                     <i class="fas fa-phone"></i>
                 </div>
-                <div class="col-12 col-md-4" id="cart">My Cart
+                <div class="col-12 col-md-4 nav-font" id="cart">My Cart
                     <i class="fas fa-shopping-cart"></i>
                 </div>
             </div>
@@ -56,11 +56,14 @@
                 </div>
             </div>
             <div class="col-12 col-md-8 row container-fluid" id="shop-body">
-                <div class="col-12 col-md-11 row" id="preview-window">
+                <div class="col-4 col-md-4 row" id="preview-window">
                     <img src="media/red.jpg" class="main-product"></img>
-                    <img src="media/black.jpg" class="thumb" style="height:20%"></img>
-                    <img src="media/white.jpg" class="thumb" style="height:20%"></img>
-                    <img src="media/black-hi.jpg" class="thumb" style="height:20%"></img>
+                </div>
+                <div class="col-8 col-md-7" id="thumb-window">
+                    <img src="media/black.jpg" class="thumb col-3" </img>
+                    <img src="media/white.jpg" class="thumb col-3" </img>
+                    <img src="media/black-hi.jpg" class="thumb col-3" </img>
+                    <div class="shoe-text-title">Casual Hipster Foot Cover</div>
                 </div>
                 <div class="col-12 col-md-1" id="social-media">
                     <i class="fab fa-twitter-square soc-icon"></i>
@@ -74,10 +77,19 @@
 </body>
 <footer>
     <div class="container-fluid row" id="site-footer">
-        <div class="col-3" id="shipping">Shipping</div>
-        <div class="col-3" id="shipping">Contact</div>
-        <div class="col-3" id="shipping">Gift Wrap</div>
-        <div class="col-3" id="shipping">Shopping Cart</div>
+        <div class="col-3 foot-txt" id="shipping">Shipping
+            <p class="foot-p">Goods shpped every Tuesday at 3pm. Delivery time is approximately 1wk</p>
+        </div>
+        <div class="col-3 foot-txt" id="foot-contact">Contact
+            <p class="foot-p">Contact us 9-4, for more information on the number below. 01942 555 455</p>
+        </div>
+        <div class="col-3 foot-txt" id="gift-wrap">Gift Wrap
+            <p class="foot-p">Gift wrapping is available at checkout.</p>
+            <a href="#" class="foot-p">Learn More</a>
+        </div>
+        <div class="col-3 foot-txt" id="foot-cart">Shopping Cart
+            <p class="foot-p">Our shopping cart will save your items should you wish to purchase them later.</p>
+        </div>
     </div>
 </footer>
 </html>

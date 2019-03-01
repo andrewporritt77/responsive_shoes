@@ -65,22 +65,32 @@ header{
     margin: 0;
 }
 
-/* nav hover animations */
 
-#home{
+.nav-font{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:10pt;
+    font-size:1.3em;
+}
+
+@media only screen and (max-width: 768px){
+    .nav-font{
+        font-size:10pt;
+    }
+}
+
+/* nav hover animations */
+#home{
     background-color: #fffcbf;
     transition: background-color 2s;
 }
+
 
 #home:hover{
     background-color: #ff6868;
 }
 
+
+
 #products{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:10pt;
     background-color: #fffcbf;
     transition: background-color 2s;
 }
@@ -90,8 +100,6 @@ header{
 }
 
 #my-account{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:10pt;
     background-color: #fffcbf;
     transition: background-color 2s;
 }
@@ -101,8 +109,6 @@ header{
 }
 
 #contact{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:10pt;
     background-color: #fffcbf;
     transition: background-color 2s;
 }
@@ -112,8 +118,6 @@ header{
 }
 
 #cart{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:10pt;
     background-color: #db9d9d;
     transition: background-color 2s;
 }
@@ -166,14 +170,13 @@ body{
 }
 /* preview gallery */
 #preview-window{
-    padding: 5%;
+    padding: 0%;
     margin:0;
 }
 
 .main-product{
     max-height: 90%;
     padding:10px;
-    max-width: 100%;
     display: block
 }
 .thumb {
@@ -195,6 +198,14 @@ body{
     #preview-window{
         height:80%;
     }
+}
+
+.shoe-text-title{
+    position:relative;
+    top:60%;
+    left:5%;
+    font-family: 'Playfair Display', serif;
+    font-size:16pt;
 }
 
 #social-media{
@@ -266,4 +277,21 @@ body{
     height: 18vh;
     margin:0;
     padding:0;
+}
+
+.foot-txt{
+    padding-left: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:10pt;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.foot-p{
+    padding: 5px 0 0 0;
+    margin:0;
+    word-wrap: normal;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:6pt;
 }
