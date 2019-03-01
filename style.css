@@ -49,7 +49,7 @@ header{
     width: auto;
     padding: 0;
     margin: 0;
-    background-color: #f9f9f2;
+    background-color: #FFFFFF;
 }
 
 #nav{
@@ -157,7 +157,7 @@ body{
     height : 100%;
     margin: 0;
     padding:0;
-    background-color:#f9f9f2;
+    background-color:#FFFFFF;
 }
 
 @media only screen and (max-width: 768px){
