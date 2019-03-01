@@ -49,6 +49,7 @@ header{
     width: auto;
     padding: 0;
     margin: 0;
+    background-color: #f9f9f2;
 }
 
 #nav{
@@ -170,16 +171,20 @@ body{
 }
 /* ----------------------------------preview gallery-------------------------------------- */
 #preview-window{
+    display: block;
     padding: 0%;
     margin:0;
+    width:100%;
+    overflow: hidden
 }
 
-.main-product{
-    max-height: 90%;
-    max-width: 90%;
-    padding:10px;
+#preview-window img{
+    height: auto;
+    width: 100%;
+    margin:0;
     display: block
 }
+
 .thumb {
     padding-right: 10px;
     padding-top: 10px;
@@ -221,26 +226,16 @@ body{
 
     font-size:20pt;
 }
-
 @media only screen and (max-width: 768px){
     #social-media{
         height:20%;
 
     }
 }
-
 .soc-icon{
     margin-right: 18px;
     margin-bottom: 18px;
 }
-
-.contain-van{
-    width:100%;
-    max-width:600px;
-    max-height: 400px;
-    height: auto;
-}
-
 /* --------------------------------search & categories section--------------------------- */
 #categories {
     height: 25vh;
